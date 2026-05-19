@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+
+  <!-- animated background -->
+  <div class="bg-slideshow"></div>
+  <div class="overlay"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="logo">NETFLIX</div>
+
+    <div class="nav-buttons">
+      <button class="language">English</button>
+      <button class="signin">Sign In</button>
+    </div>
+  </header>
+
+  <!-- HERO CONTENT -->
+  <div class="hero-content">
+
+    <h1>Unlimited movies, TV shows, and more</h1>
+
+    <h3>Starts at R49. Cancel anytime.</h3>
+
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+    <div class="email-box">
+      <input type="email" placeholder="Email address">
+      <button>Get Started ></button>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TRENDING -->
+<section class="trending">
+
+  <h2>Trending Now</h2>
+
+<div class="trending-container">
+
+    <!-- LEFT ARROW -->
+    <button class="scroll-arrow left" onclick="scrollLeftRow()">&#10094;</button>
+
+  <div class="movies">
+
+    <div class="movie-card"><span>1</span><img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"></div>
+    <div class="movie-card"><span>2</span><img src="https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"></div>
+    <div class="movie-card"><span>3</span><img src="https://image.tmdb.org/t/p/w500/5P8SmMzSNYikXpxil6BYzJ16611.jpg"></div>
+    <div class="movie-card"><span>4</span><img src="https://image.tmdb.org/t/p/w500/6KErczPBROQty7QoIsaa6wJYXZi.jpg"></div>
+
+ <div class="movie-card">
+        <span>5</span>
+        <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg">
+      </div>
+    
+<div class="movie-card">
+  <span>6</span>
+  <img src="https://image.tmdb.org/t/p/w500/5PSNL1q2V6O0D5V1z9a0W8Q0ZQK.jpg">
+   </div>
+
+<!-- RIGHT ARROW -->
+    <button class="scroll-arrow right" onclick="scrollRightRow()">&#10095;</button>
+
+  </div>
+
+</section>
+
+<!-- REASONS -->
+<section class="reasons">
+
+  <h2>More Reasons to Join</h2>
+
+  <div class="reason-container">
+
+    <div class="reason-card">
+      <h3>Enjoy on your TV</h3>
+      <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+    </div>
+
+    <div class="reason-card">
+      <h3>Download your shows</h3>
+      <p>Save your favorites easily and always have something to watch.</p>
+    </div>
+
+    <div class="reason-card">
+      <h3>Watch everywhere</h3>
+      <pStream>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+    </div>
+
+    <div class="reason-card">
+      <h3>Create profiles for kids</h3>
+      <p>Send kids on adventures with their favorite characters in a space made just for them — free with your membership.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- VIDEO -->
+<section class="video-section">
+
+  <h2>Featured Trailer</h2>
+
+  <iframe
+    src="https://www.youtube.com/embed/Di310WS8zLk?rel=0&modestbranding=1"
+    allowfullscreen>
+  </iframe>
+
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+
+  <h2>Frequently Asked Questions</h2>
+
+  <details>
+    <summary>What is Netflix?</summary>
+    <p>
+Netflix is an online streaming platform where you can enjoy movies, series, documentaries, anime, and more across different devices with internet access.
+Watch anytime without interruptions from ads, all for an affordable monthly subscription. Fresh content is added regularly, giving you new shows and movies to explore every week.
+    </p>
+  </details>
+
+  <details>
+    <summary>How much does Netflix cost?</summary>
+    <p>
+Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from R 59 to R 229/month
+    </p>
+  </details>
+
+  <details>
+    <summary>Where can I watch?</summary>
+    <p>
+Enjoy streaming anytime and from anywhere using your Netflix account. Watch directly on your browser or through supported devices such as smart TVs, mobile phones, tablets, gaming consoles, and streaming devices connected to the internet.
+
+You can also save your favourite movies and series using the mobile app to watch offline whenever you travel or don’t have internet access. Entertainment goes wherever you go.
+    </p>
+  </details>
+
+  <details>
+    <summary>How do I cancel?</summary>
+    <p>
+Netflix gives you the freedom to manage your subscription whenever you want. You can cancel your membership online quickly and easily without extra charges or long-term commitments. Start or pause your subscription at any time.
+    </p>
+  </details>
+
+  <details>
+    <summary>What can I watch on Netflix?</summary>
+    <p>
+Netflix offers a huge collection of movies, documentaries, series, anime, and exclusive original content for all kinds of viewers. Enjoy unlimited entertainment whenever you feel like watching.
+    </p>
+  </details>
+
+  <details>
+    <summary>Is Netflix good for kids?</summary>
+    <p>
+Netflix includes a special kids section within your subscription, allowing children to enjoy safe and family-friendly movies and shows in their own viewing space. Parents can manage what children watch using parental controls, including PIN protection, age restrictions, and the option to block specific content.
+    </p>
+  </details>
+
+</section>
+     
+<!-- FOOTER -->
+<footer>
+
+  <p>Netflix Clone Project</p>
+
+  <div class="footer-links">
+    <a href="#">FAQ</a>
+    <a href="#">Help</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+  </div>
+
+</footer>
+
+</body>
+</html>
