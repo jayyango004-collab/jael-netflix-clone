@@ -211,13 +211,19 @@ body{
   padding:70px 11%;
 }
 
-.video-section iframe{
+.video-section h2{
+  font-size:2rem;
+  margin-bottom:25px;
+}
+
+.video-section video{
   width:100%;
-  max-width:800px;
-  height:420px;
+  max-width:850px;
   display:block;
   margin:auto;
-  border-radius:12px;
+  border-radius:14px;
+  border:2px solid #333;
+  box-shadow:0 10px 30px rgba(0,0,0,0.6);
 }
 
 /* FAQ */
